@@ -24,8 +24,8 @@
 #Boolean
 
 # True and False are the only Boolean types
-True
-False
+# True
+# False
 
 # Type Errors
 
