@@ -16,9 +16,12 @@
 print("Welcoe to the rollercoaster!")
 height = int(input("What is your height in cm? "))
 
+# if needs a True of False answer so you must not use just one = sign it will just reassign 
 if height >= 120:
     print("You can ride the rollercoaster!")
 else:
     print("Sorry, you have to grow taller before you can ride.")
 
-
+# CODING ASSIGNMENT
+# https://www.codingrooms.com/
+# CODING ASSIGNMENT
