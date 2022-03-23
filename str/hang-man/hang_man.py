@@ -15,14 +15,24 @@ for _ in range(word_length):
 # testing code
 print(f'Pssst, the solution is {chosen_word}.')
 
-# guessing code
-guess = input("Guess a letter: ").lower()
+end_of_game = False
 
-for position in range(word_length):
-    letter = chosen_word[position]
-    # testing code
-    # print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
-    if letter == guess:
-        display[position] = letter
+while not end_of_game:
+    # guessing code
+    guess = input("Guess a letter: ").lower()
+    
+    for position in range(word_length):
+        letter = chosen_word[position]
+        # testing code
+        # print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
+        if letter == guess:
+            display[position] = letter
+    
+    print(display)
 
-print(display)
+    if "_" not in display:
+        end_of_game = True
+        print("You Win")
+
+
+# EOF
