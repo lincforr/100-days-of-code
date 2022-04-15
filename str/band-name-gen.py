@@ -1,7 +1,4 @@
 
-# https://app.codingrooms.com/management/courses/6387/classes/8480/assignments
-# go Here /\ to see my progress and make sure to login as me using my github account
-
 # input() will get user input in console
 # Then print() will print the word "Hello" and the user input
 # print("Hello " + input("What is your name?") + "!")

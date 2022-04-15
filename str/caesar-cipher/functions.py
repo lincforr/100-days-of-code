@@ -30,4 +30,14 @@
 # paint_cans_needed = area_wall / coverage
 # print(f"you need {paint_cans_needed} cans to cover your wall")
 
+# Functions
+def prime_checker(number):
+    7 / 2
+    print(number)
+
+
+# Running code
+n = int(input("Check this number: "))
+prime_checker(number=n)
+
 # EOF
