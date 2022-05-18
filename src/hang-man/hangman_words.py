@@ -209,7 +209,7 @@ word_list = [
 'zigzag', 
 'zigzagging', 
 'zilch', 
-'zipper', 
+'zipper',
 'zodiac', 
 'zombie', 
 ]
