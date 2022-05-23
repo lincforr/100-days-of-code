@@ -20,7 +20,7 @@ def auction():
     
     while not bidding_finished:
         name = input("What is your name. ")
-        price = int(input("What is you Bid? $"))
+        price = float(input("What is you Bid? $"))
         bids[name] = price
         should_continue = input("Are there any other bidders? Type 'yes' or 'no'.\n")
         if should_continue == "no":
@@ -29,5 +29,7 @@ def auction():
         elif should_continue == "yes":
             clear()
             print(logo)
+        else:
+            exit()
     
     

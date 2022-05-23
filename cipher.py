@@ -13,8 +13,6 @@ def cipher():
         end_text = ""
         if cipher_direction == "decode":
             shift_amount *= -1
-        elif cipher_direction == "":
-            exit()
         for char in start_text:
             if char in alphabet:
                 position = alphabet.index(char)
