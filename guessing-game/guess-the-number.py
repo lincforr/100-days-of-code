@@ -35,8 +35,8 @@ while attempts > 0:
         attempts -= 1
         print(f"You have {attempts} attempts left.")
     elif guessed_number == PICKED_NUMBER:
-        print("You Win!")
+        print(f"You Win! The number was {PICKED_NUMBER}")
         exit()
 
-print(f"You loose the number was {PICKED_NUMBER}")
+print(f"You loose the number was {PICKED_NUMBER}.")
 exit()
